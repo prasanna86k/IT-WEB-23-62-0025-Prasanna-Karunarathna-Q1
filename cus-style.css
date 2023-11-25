@@ -1,0 +1,31 @@
+:root{
+    --primary-color:#525FFB;
+}
+
+.body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-primary-color{
+    color: var(--primary-color);
+}
+
+.text-title{
+    font-weight: 900;
+}
+
+.cus-sub-heading{
+    color: silver;
+    font-size: 12px;
+}
+
+.cut-button{    
+    height: 35px;
+    border-color: var(--primary-color);
+    border-radius: 25px;
+    color: var(--primary-color);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
