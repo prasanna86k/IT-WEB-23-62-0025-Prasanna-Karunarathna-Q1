@@ -19,13 +19,57 @@
     font-size: 12px;
 }
 
-.cut-button{    
+.div-size{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cus-button{
     height: 35px;
     border-color: var(--primary-color);
     border-radius: 25px;
     color: var(--primary-color);
     padding-left: 20px;
     padding-right: 20px;
+    transition-duration: .4s;
 }
 
+.cus-button:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
 
+.cus-inputbox{
+    border-radius: 20px;
+}
+
+.cus-submit-btn{
+    background-color: var(--primary-color);
+    color: white;
+    height: 35px;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition-duration: .4s;
+    width: 150px;
+    margin-left: 10px;
+}
+
+.cus-submit-btn:hover{
+    background-color: white;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.hero-image{
+    /* background-image: url(./res/hero\ image.jpg); */
+    background-size:cover;
+    background-position:center;
+    /* height: 500px; */
+}
+
+.card-higth-fix{
+    height: 450px;
+    border-radius: 20px;
+    border-width: 0;
+}
