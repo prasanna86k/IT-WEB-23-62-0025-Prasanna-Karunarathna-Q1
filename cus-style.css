@@ -1,5 +1,6 @@
 :root{
     --primary-color:#525FFB;
+    --gray-text:#b6b6b6;
 }
 
 .body{
@@ -12,6 +13,12 @@
 
 .text-title{
     font-weight: 900;
+}
+
+.text-title-high{
+    font-weight: 900;
+    font-size: 120px;
+    color:var(--primary-color) ;
 }
 
 .cus-sub-heading{
