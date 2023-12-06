@@ -19,5 +19,3 @@ function ValidateEmail(input) {
     }
   
   }
-  
-  Defi
