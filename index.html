@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./cus-style.css">
+    <script src="res/email.js"></script>
     
 </head>
   <body class="div-size">
@@ -32,8 +33,8 @@
                     <p class="cus-sub-heading fw-bold">We believe that designing products and services in close partnership with our clients is the only way to have a real impact on their business.</p>
                 </div>
                 <div class="col-xl-6 col-lg-8 col-md-10 d-flex justify-content-between">
-                    <input type="email" class="form-control cus-inputbox" id="emailID" placeholder="Name@company.com">
-                    <button type="button" class="btn btn-primary btn-sm cus-submit-btn">Try it free</button>
+                    <input  type="email" id="email1" name="email1" class="form-control cus-inputbox" placeholder="Name@company.com" >
+                    <button type="button" class="btn btn-primary btn-sm cus-submit-btn" onclick="ValidateEmail(email1)">Try it free</button>
                 </div>
                 
             </div>
@@ -173,8 +174,8 @@
                     </div>
 
                     <div class="col-xl-6 col-lg-4 col-md-6 d-flex justify-content-between mt-5">
-                        <input type="email" class="form-control cus-inputbox" id="emailID" placeholder="Name@company.com">
-                        <button type="button" class="btn btn-primary btn-sm cus-submit-btn">Try it free</button>
+                        <input type="email" class="form-control cus-inputbox" id="email2" placeholder="Name@company.com">
+                        <button type="button" class="btn btn-primary btn-sm cus-submit-btn" onclick="ValidateEmail(email2)">Try it free</button>
                     </div>
                 </div>  
                         
